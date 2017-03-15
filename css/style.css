@@ -4,9 +4,12 @@ body{
 }
 
 .container{
-	margin : 0 160px 0 160px;
+	margin : 0 auto;
+	padding : 0 160px 0 160px;
 	max-width : 1260px;
 	max-height : 940px;
+	position : relative;
+	box-sizing : border-box;
 }
 
 .title{
